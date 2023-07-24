@@ -1,0 +1,166 @@
+2023.07.24 18:43:20 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Flink-streaming' for client Visual Studio Code 1.80.1.
+Jul 24, 2023 6:43:20 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 24, 2023 6:43:20 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 24, 2023 6:43:20 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Flink-streaming\.metals\metals (H2 2.1)
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.017s)
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 24, 2023 6:43:21 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.020s)
+2023.07.24 18:43:21 INFO  time: initialize in 0.8s
+2023.07.24 18:43:23 WARN  Build server is not auto-connectable.
+2023.07.24 18:43:23 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 18:43:27 INFO  no build target found for C:\Projects\Flink-streaming\src\main\scala\Trying.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.24 18:43:29 INFO  time: code lens generation in 5.82s
+Jul 24, 2023 10:00:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+2023.07.24 22:50:56 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 22:52:07 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.24 22:52:17 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.24 22:52:24 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.24 22:52:31 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 22:52:59 INFO  skipping build import with status 'Dismissed'
+2023.07.24 22:53:49 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.24 22:53:49 INFO  skipping build import with status 'Dismissed'
+2023.07.24 22:54:12 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 22:57:12 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 22:57:16 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:04:40 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:04:42 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:18:03 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:18:06 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:18:10 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:18:32 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:18:57 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+Jul 24, 2023 11:21:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 276
+2023.07.24 23:21:06 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.24 23:54:38 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:15 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:17 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:19 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:21 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:23 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+Jul 25, 2023 12:04:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 362
+2023.07.25 00:04:25 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:27 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:28 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:33 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:34 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:36 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:04:38 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:09:10 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:09:13 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:13:30 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:13:47 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:13:55 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:13:57 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:19:30 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:22:54 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+Jul 25, 2023 12:23:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 566
+2023.07.25 00:23:04 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:23:04 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:23:13 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:23:13 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:23:29 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:23:29 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:23:30 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:23:30 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:25:33 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:25:38 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:25:38 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:26:19 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:26:23 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:26:26 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:26:43 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:27:03 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:27:22 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:33:59 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala.scala
+2023.07.25 00:34:10 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:34:23 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:34:43 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:34:44 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:34:49 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:34:55 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:35:05 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:35:13 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:35:14 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:35:23 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:35:44 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:37:23 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:37:23 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:37:35 WARN  no build target for: C:\Projects\Flink-streaming\build.sbt
+2023.07.25 00:37:35 INFO  skipping build import with status 'Dismissed'
+2023.07.25 00:38:20 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:38:41 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:39:32 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:40:00 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:40:02 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:40:03 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:41:57 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:43:38 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+Jul 25, 2023 12:44:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 991
+2023.07.25 00:44:10 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:45:13 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:45:19 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:45:25 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:45:31 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 00:55:31 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:55:35 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:55:40 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 00:55:50 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:30 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:33 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:38 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:41 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:48 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:49 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:55 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:57 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:00:59 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:01:02 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:01:54 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:01:56 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:02:00 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:02:01 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:02:05 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:02:07 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:02:10 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Trying.scala
+2023.07.25 01:04:47 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:04:50 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:04:59 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:06 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:12 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:15 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:19 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:25 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:27 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:30 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:05:32 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\dbconnect.scala
+2023.07.25 01:06:21 WARN  no build target for: C:\Projects\Flink-streaming\src\main\scala\Main.scala
+Jul 25, 2023 1:06:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1452
+2023.07.25 01:10:11 INFO  Shutting down server
+2023.07.25 01:10:11 INFO  shutting down Metals
+2023.07.25 01:10:11 INFO  Exiting server

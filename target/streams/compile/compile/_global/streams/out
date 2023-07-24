@@ -1,7 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink course\flink-course\src\main\scala\Trying.scala:20:20: not found: value KafkaRecordSerializationSchema[0m
-[0m[[0m[31merror[0m] [0m[0m  val serializer = KafkaRecordSerializationSchema.builder()[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink course\flink-course\src\main\scala\Trying.scala:25:19: not found: value KafkaSink[0m
-[0m[[0m[31merror[0m] [0m[0m  val kafkaSink = KafkaSink.builder()[0m
-[0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\dbconnect.scala:9:16: method open overrides nothing.[0m
+[0m[[0m[31merror[0m] [0m[0mNote: the super classes of class CassandraSourceFunction contain the following, non final members named open:[0m
+[0m[[0m[31merror[0m] [0m[0mdef open(x$1: org.apache.flink.configuration.Configuration): Unit[0m
+[0m[[0m[31merror[0m] [0m[0m  override def open(parameters: Nothing): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
