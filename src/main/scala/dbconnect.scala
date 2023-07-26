@@ -9,6 +9,7 @@ class CassandraSourceFunction extends RichSourceFunction[String] {
   private var session: CqlSession = _
 
   override def open(parameters: Configuration): Unit = {
+    println("Inside open")
     val sessionBuilder = CqlSession.builder()
       .withKeyspace("flink_db")
       .addContactPoint(new java.net.InetSocketAddress("localhost", 9042)) 
@@ -22,8 +23,10 @@ class CassandraSourceFunction extends RichSourceFunction[String] {
     val resultSet = session.execute("SELECT * FROM teachers") 
     val iterator = resultSet.iterator()
     while (isRunning && iterator.hasNext) {
+      println("HIIIIIII")
       val row: Row = iterator.next()
       val data: String = row.getString("teacher_id") 
+      println(data)
       ctx.collect(data)
     }
   }
