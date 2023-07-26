@@ -1,0 +1,10 @@
+
+{"Student_Id": "100001","Doubt": "DoubtAbdul","Domain": "Math", "Student_Name": "Abdul"}
+{"Student_Id": "100002","Doubt": "DoubtAlisha","Domain": "Math", "Student_Name": "Alisha"}
+{"Student_Id": "100003","Doubt": "DoubtRay","Domain": "English", "Student_Name": "Ray"}
+
+
+
+1001,DoubtAbdul,Math,Abdul
+1002,DoubtAlisha,Math,Alisha
+1003,DoubtRay,English,Ray

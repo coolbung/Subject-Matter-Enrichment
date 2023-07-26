@@ -1,0 +1,37 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(cc0afba4-2a88-48c7-ac7e-35b58cd8371b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Projects\Flink-streaming\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:4:25: object connector is not a member of package org.apache.flink[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.connector.kafka.source.KafkaSource[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:5:25: object connector is not a member of package org.apache.flink[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.connector.kafka.sink.KafkaRecordSerializationSchema[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:6:25: object connector is not a member of package org.apache.flink[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.connector.kafka.sink.KafkaSink[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:8:25: object connector is not a member of package org.apache.flink[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.flink.connector.kafka.source.enumerator.initializer.OffsetsInitializer[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:17:19: object kafka is not a member of package org.apache[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.kafka.clients.consumer.{ConsumerRecords, KafkaConsumer}[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:65:21: not found: value KafkaSource[0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaSource = KafkaSource.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:69:23: not found: value OffsetsInitializer[0m
+[0m[[0m[31merror[0m] [0m[0m  .setStartingOffsets(OffsetsInitializer.latest())[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:74:20: not found: value KafkaRecordSerializationSchema[0m
+[0m[[0m[31merror[0m] [0m[0m  val serializer = KafkaRecordSerializationSchema.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Projects\Flink-streaming\src\main\scala\Trying.scala:93:19: not found: value KafkaSink[0m
+[0m[[0m[31merror[0m] [0m[0m  val kafkaSink = KafkaSink.builder()[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m9 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 11 s, completed 26-Jul-2023, 4:57:06 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
