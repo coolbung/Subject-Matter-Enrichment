@@ -972,3 +972,20 @@ WARNING: Unmatched cancel notification for request id 4952
 2023.07.26 18:46:11 INFO  Shutting down server
 2023.07.26 18:46:11 INFO  shutting down Metals
 2023.07.26 18:46:11 INFO  Exiting server
+2023.07.28 01:25:45 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.80.1.
+Jul 28, 2023 1:25:45 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 28, 2023 1:25:45 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 28, 2023 1:25:45 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 28, 2023 1:25:46 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Jul 28, 2023 1:25:46 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Jul 28, 2023 1:25:46 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 28, 2023 1:25:46 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.28 01:25:47 INFO  time: initialize in 1.56s
+2023.07.28 01:25:50 WARN  Build server is not auto-connectable.
