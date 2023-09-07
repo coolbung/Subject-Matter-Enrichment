@@ -989,3 +989,221 @@ Jul 28, 2023 1:25:46 AM org.flywaydb.core.internal.command.DbMigrate logSummary
 INFO: Schema "PUBLIC" is up to date. No migration necessary.
 2023.07.28 01:25:47 INFO  time: initialize in 1.56s
 2023.07.28 01:25:50 WARN  Build server is not auto-connectable.
+2023.07.28 01:26:00 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\dbconnect.scala
+2023.07.28 01:26:08 INFO  no build target found for C:\Projects\Subject-Matter-Enrichment\src\main\scala\dbconnect.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.28 01:26:12 ERROR text document: file:///C:/Projects/Subject-Matter-Enrichment/src/main/scala/dbconnect.scala
+java.nio.file.NoSuchFileException: C:\Projects\Subject-Matter-Enrichment\src\main\scala\dbconnect.scala
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$2(InteractiveSemanticdbs.scala:90)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:90)
+	at java.util.HashMap.compute(HashMap.java:1229)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:89)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:63)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$2(MetalsLspService.scala:1541)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$codeLens$1(MetalsLspService.scala:1539)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+
+2023.07.28 01:26:12 INFO  time: code lens generation in 10s
+2023.07.28 01:26:13 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Main.scala
+2023.07.28 01:26:19 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Trying.scala
+2023.07.28 01:26:21 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Main.scala
+2023.07.28 01:26:31 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Trying.scala
+2023.07.28 01:26:39 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:26:47 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:26:53 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:26:55 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:26:56 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:27:16 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:27:19 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\Final.scala
+2023.07.28 01:27:24 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:37 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:43 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:46 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:50 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:53 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:55 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:27:58 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:28:01 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:28:06 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:28:10 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:28:25 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 01:29:13 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\build.sbt
+2023.07.28 01:29:19 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\build.sbt
+2023.07.28 01:29:23 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\build.sbt
+2023.07.28 01:29:27 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\build.sbt
+2023.07.28 01:29:35 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\build.sbt
+2023.07.28 02:08:05 INFO  Shutting down server
+2023.07.28 02:08:05 INFO  shutting down Metals
+2023.07.28 02:08:05 INFO  Exiting server
+2023.07.28 16:20:29 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.80.1.
+Jul 28, 2023 4:20:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 28, 2023 4:20:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 28, 2023 4:20:29 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 28, 2023 4:20:30 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Jul 28, 2023 4:20:30 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.036s)
+Jul 28, 2023 4:20:30 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 28, 2023 4:20:30 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.28 16:20:30 INFO  time: initialize in 1.02s
+Jul 28, 2023 4:20:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.07.28 16:20:34 WARN  Build server is not auto-connectable.
+2023.07.28 16:20:34 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.07.28 16:20:40 INFO  no build target found for C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.28 16:20:43 INFO  time: code lens generation in 9.11s
+2023.07.28 16:20:43 INFO  time: code lens generation in 9.12s
+Jul 28, 2023 5:36:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jul 28, 2023 5:40:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2023.07.28 22:42:07 INFO  Shutting down server
+2023.07.28 22:42:07 INFO  shutting down Metals
+2023.07.28 22:42:07 INFO  Exiting server
+2023.08.02 13:32:47 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.80.2.
+Aug 02, 2023 1:32:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 02, 2023 1:32:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 02, 2023 1:32:47 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 02, 2023 1:32:47 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Aug 02, 2023 1:32:48 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.061s)
+Aug 02, 2023 1:32:48 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 02, 2023 1:32:48 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.02 13:32:48 INFO  time: initialize in 1.37s
+2023.08.02 13:32:51 WARN  Build server is not auto-connectable.
+2023.08.02 13:32:51 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.08.02 13:32:56 INFO  no build target found for C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.02 13:32:58 INFO  time: code lens generation in 6.78s
+Aug 02, 2023 1:33:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Aug 02, 2023 1:33:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.08.02 18:18:22 INFO  Shutting down server
+2023.08.02 18:18:22 INFO  shutting down Metals
+2023.08.02 18:18:22 INFO  Exiting server
+2023.08.10 09:13:30 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.81.0.
+Aug 10, 2023 9:13:30 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 10, 2023 9:13:30 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 10, 2023 9:13:30 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 10, 2023 9:13:31 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Aug 10, 2023 9:13:31 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.058s)
+Aug 10, 2023 9:13:31 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 10, 2023 9:13:31 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.10 09:13:31 INFO  time: initialize in 1.54s
+2023.08.10 09:13:36 WARN  Build server is not auto-connectable.
+2023.08.10 09:13:36 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.08.10 09:13:43 INFO  no build target found for C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.10 09:13:47 INFO  time: code lens generation in 11s
+2023.08.10 13:00:55 INFO  Shutting down server
+2023.08.10 13:00:55 INFO  shutting down Metals
+2023.08.10 13:00:55 INFO  Exiting server
+2023.08.14 02:48:52 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.81.0.
+Aug 14, 2023 2:48:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 14, 2023 2:48:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 14, 2023 2:48:52 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 14, 2023 2:48:53 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Aug 14, 2023 2:48:53 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.050s)
+Aug 14, 2023 2:48:53 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 14, 2023 2:48:53 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.14 02:48:53 INFO  time: initialize in 1.29s
+2023.08.14 02:48:56 WARN  Build server is not auto-connectable.
+2023.08.14 03:51:26 INFO  Shutting down server
+2023.08.14 03:51:26 INFO  shutting down Metals
+2023.08.14 03:51:26 INFO  Exiting server
+2023.08.14 21:16:55 INFO  Started: Metals version 1.0.0 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.81.1.
+Aug 14, 2023 9:16:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 14, 2023 9:16:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 14, 2023 9:16:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 14, 2023 9:16:55 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Aug 14, 2023 9:16:55 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Aug 14, 2023 9:16:55 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug 14, 2023 9:16:56 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.14 21:16:56 INFO  time: initialize in 0.65s
+2023.08.14 21:16:57 WARN  Build server is not auto-connectable.
+2023.08.14 21:17:23 INFO  Shutting down server
+2023.08.14 21:17:23 INFO  shutting down Metals
+2023.08.14 21:17:23 INFO  Exiting server
+2023.09.07 12:32:55 INFO  Started: Metals version 1.0.1 in folders 'C:\Projects\Subject-Matter-Enrichment' for client Visual Studio Code 1.81.1.
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:C:\Projects\Subject-Matter-Enrichment\.metals\metals (H2 2.1)
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.027s)
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Sep 07, 2023 12:32:55 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.09.07 12:32:56 INFO  time: initialize in 0.77s
+2023.09.07 12:32:57 WARN  Build server is not auto-connectable.
+2023.09.07 12:34:07 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.09.07 12:34:11 INFO  no build target found for C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala. Using presentation compiler with project's scala-library version: 3.3.0
+Sep 07, 2023 12:34:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Sep 07, 2023 12:34:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.09.07 12:34:13 INFO  time: code lens generation in 2.17s
+2023.09.07 12:34:13 INFO  time: code lens generation in 2.13s
+2023.09.07 12:34:19 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.09.07 12:34:25 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.09.07 12:34:28 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.09.07 12:34:30 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.09.07 12:34:35 WARN  no build target for: C:\Projects\Subject-Matter-Enrichment\src\main\scala\enrichment.scala
+2023.09.07 12:34:44 INFO  Shutting down server
+2023.09.07 12:34:44 INFO  shutting down Metals
+2023.09.07 12:34:44 INFO  Exiting server

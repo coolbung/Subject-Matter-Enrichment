@@ -28,6 +28,7 @@ import java.util.Properties
 object enrichment extends App {
   @transient lazy val logger: Logger = Logger.getLogger(getClass.getName)
 
+  //Feature built for Code4GovtTech by Siddharth Banga
   val spark = SparkSession.builder()
       .master("local[3]")
       .appName("enrichment")
